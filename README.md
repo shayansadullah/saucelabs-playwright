@@ -1,3 +1,18 @@
+
+# SauceLabs Javascript and Cucumber filtering and purchase
+
+Saucelabs is a simple project for ordering and purchasing clothing items. This ensures that the most and least expenisve items (after being orderd from most expensive to least expensive) are included
+
+## Installation
+
+In WebStorm 2022.x: make sure that the Node.js Core library is enabled in Settings (Preferences) | Languages & Frameworks | Node.js and NPM
+
+
+## Usage
+
+npm run test
+
+## Project Description
 Create a E2E test that comprises the below steps:
 1. Login to https://www.saucedemo.com/ using the "standard_user" account
 2. Sort the products by Price (high to low)
