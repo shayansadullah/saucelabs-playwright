@@ -1,7 +1,7 @@
 
 # SauceLabs Javascript and Cucumber filtering and purchase
 
-Saucelabs is a simple project for ordering and purchasing clothing items. This ensures that the most and least expenisve items (after being orderd from most expensive to least expensive) are included
+Saucelabs javascript is a simple project for ordering and purchasing clothing items. This ensures that the most and least expenisve items (after being orderd from most expensive to least expensive) are included in the checkout process.
 
 ## Installation
 
