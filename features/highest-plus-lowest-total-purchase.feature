@@ -15,3 +15,4 @@ Feature: Purchase action
         | Sauce Labs Fleece Jacket | $49.99 |
         | Sauce Labs Onesie        | $7.99  |
       And the total purchase cost should be "$55.98"
+      And I complete the purchase

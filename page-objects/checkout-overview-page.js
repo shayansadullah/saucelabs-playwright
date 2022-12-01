@@ -13,8 +13,11 @@ class CheckoutOverviewPage {
         for(let index=0; index < elementsCount; index++) {
             expect(order[index]).to.equal(products[index][0])
             expect(price[index]).to.equal(products[index][1])
-
         }
+    }
+
+    async finish() {
+        await page.locator('[data-test=finish]').click()
     }
 }
 module.exports = { CheckoutOverviewPage }
