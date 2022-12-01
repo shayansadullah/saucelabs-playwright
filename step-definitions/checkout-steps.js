@@ -7,7 +7,7 @@ const navigationPage = new NavigationPage()
 const checkoutYourCartPage = new CheckoutYourCartPage()
 const checkoutYourInfoPage = new CheckoutYourInfoPage()
 
-When('I complete the purchase', async function () {
+When('I get to the checkout overview page', async function () {
     await navigationPage.shoppingCartLink()
     await checkoutYourCartPage.checkout()
     await checkoutYourInfoPage.fillInformationDetails()

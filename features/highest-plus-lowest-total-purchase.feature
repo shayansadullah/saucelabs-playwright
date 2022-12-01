@@ -9,9 +9,9 @@ Feature: Purchase action
       And I sort the price "Price (high to low)"
       And I add the first product into the cart
       And I add the last product into the cart
-      When I complete the purchase
+      When I get to the checkout overview page
       Then the following products are present in the cart
-        | name                     | price |
-        | Sauce Labs Fleece Jacket | 49.99 |
-        | Sauce Labs Onesize       | 7.99  |
+        | name                     | price  |
+        | Sauce Labs Fleece Jacket | $49.99 |
+        | Sauce Labs Onesie        | $7.99  |
       And the total purchase cost should be "55.98"
